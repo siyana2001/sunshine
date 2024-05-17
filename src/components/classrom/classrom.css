@@ -1,0 +1,441 @@
+.main2{
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  position: relative;
+  z-index: 0;
+  top: -50px;
+  padding-top: 3%;
+}
+
+.maindiv {
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 25px;
+  border: 2px solid transparent;
+  position: relative;
+  z-index: -5;
+  margin-top: -14%;
+}
+
+.custom-border {
+  position: relative;
+  overflow: hidden;
+}
+.center_circle22 {
+  width: 160px; /* Adjust size as needed */
+  height: 160px; /* Adjust size as needed */
+  border-radius: 50%; /* Make it a circle */
+  border: 5px solid rgb(44, 164, 204); /* Border style */
+  position: absolute; /* Positioning */
+  top: 50%; 
+  left: 19%; 
+  transform: translate(-50%, -50%); 
+  z-index: 1; 
+  background-color: white;
+  line-height: 0;
+  text-align: center;
+  font-family:'Noto Sans Bengali UI';
+  font-weight: bold;
+  color: darkviolet;
+  padding-top: 3%;
+}
+
+.sunshine{
+  margin-top:21%;
+}
+.custom-circle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: blue;
+  clip-path: ellipse(45% 50% at 3% 50%);
+  z-index: 1;
+}
+
+.circle {
+  width: 58px; 
+  height: 51px; 
+  background-color: white; 
+  border-radius: 50%; 
+  position: absolute;
+  z-index: 2;
+  border: 4px solid rgb(12, 173, 226);
+}
+
+/* Circle positions around the curve */
+.circle1 {
+  top: 2%;
+  left: 22%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 3;
+}
+
+.circle1_img {
+  width: 115%;
+  height: 115%;
+  border-radius: 50%;
+}
+.circle2_img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.circle3_img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.circle4_img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.circle5_img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.circle2 {
+  top: 20%;
+  left: 37%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle3 {
+  top: 40%;
+  left: 43%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle4 {
+  top: 64.5%;
+  left: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle5 {
+  top: 84%;
+  left: 29.5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image1 {
+  width: 80%;
+  height: 70%;
+}
+
+.square {
+  width: 260px; /* Adjust size as needed */
+  height: 48px; /* Adjust size as needed */
+  background-color: white; /* Color for the squares */
+  position: absolute;
+  text-align: center;
+  padding-top: 1%;
+  border-bottom-right-radius: 10px;
+  font-weight: bold;
+  font-size: 14px;
+  padding-top: 10px;
+}
+
+/* Square position relative to the circle */
+.square1 {
+  margin-left: 24%;
+  border-top-width: 2px; /* Increase top border width */
+  border-bottom-width: 2px; /* Increase bottom border width */
+  border-left-width: 0;
+  border: 3px solid rgb(12, 173, 226);
+  z-index: 1;
+ margin-top: -5%;
+ width: 260px;
+}
+.square2 {
+  margin-top: 9.5%;
+  margin-left: 38.2%;
+  border-top-width: 2px; /* Increase top border width */
+  border-bottom-width: 2px; /* Increase bottom border width */
+  border-left-width: 0;
+  border: 3px solid goldenrod;
+  z-index: 1;
+  width: 260px;
+
+}
+.square3 {
+  margin-top: 25.3%;
+  margin-left: 44.2%;
+  border-top-width: 2px; /* Increase top border width */
+  border-bottom-width: 2px; /* Increase bottom border width */
+  border-left-width: 0;
+  z-index: 1;
+  border: 3px solid palevioletred;
+  padding-left: 15px;
+  width: 260px;
+
+}
+.square4 {
+  margin-top: 44.6%;
+  margin-left: 41.5%;
+  border-top-width: 2px; /* Increase top border width */
+  border-bottom-width: 2px; /* Increase bottom border width */
+  border-left-width: 0;
+  border: 3px solid burlywood;
+  z-index: 1;
+  padding-left: 15px;
+
+}
+.square5 {
+  margin-top: 60.3%;
+  margin-left: 32.2%;
+  border-top-width: 2px; /* Increase top border width */
+  border-bottom-width: 2px; /* Increase bottom border width */
+  border-left-width: 0;
+  border: 3px solid palevioletred;
+  z-index: 1;
+  padding-left: 15px;
+}
+p {
+  line-height: normal;
+}
+.course-img{
+  height:300px;
+  width:300px;
+}
+
+/* Media queries for mobile devices
+@media (max-width: 576px) {
+  .container-fluid.maindiv .col-5 p {
+    font-size: 11px;
+  }
+  .image1 {
+    width: auto;
+    height: 150%;
+    max-width: 200px;
+    margin-left: 20px;
+  }
+  .conatiner_sub.container-fluid.maindiv {
+    height: 40vh;
+  }
+  .custom-circle {
+    clip-path: ellipse(60% 50% at 0% 50%);
+  }
+  .circle{
+    height: 35px;
+    width: 35px;
+    border: 3px solid rgb(12, 173, 226);
+  }
+  .circle1{
+    top: 1%; 
+    left: 25%;
+  }
+  .circle2{
+    top: 20%;  
+    left: 43%;
+  }
+  .circle3{
+    top: 42%;  
+    left: 52%;
+  }
+  .circle4{
+    top: 64%;  
+    left: 46%;
+  }
+  .circle5{
+    top: 84%;  
+    left: 29%;
+  }
+  .center_circle22{
+    height: 80px;
+    width: 80px;
+    left: 22%;
+    font-size: 11px;
+    line-height: 0;
+    border: 2px solid rgb(12, 173, 226);
+  }
+  .course-img{
+    height: 150px;
+    width: 150px;
+    margin-right: 10px;
+  }
+  .course-img:last-child {
+    margin-right: 0;
+  }
+} */
+
+/* Media queries for mobile devices */
+@media (max-width: 576px) {
+  .container-fluid.maindiv .col-5 p {
+    font-size: 11px;
+  }
+  .image1 {
+    width: auto;
+    height: 150%;
+    max-width: 200px;
+    margin-left: 20px;
+  }
+  .conatiner_sub.container-fluid.maindiv {
+    height: 40vh;
+    width: auto;
+  }
+  .custom-circle {
+    clip-path: ellipse(60% 50% at 0% 50%);
+  }
+  .circle {
+    height: 32px;
+    width: 32px;
+    border: 3px solid rgb(12, 173, 226);
+  }
+  .circle1 {
+    top: 1%;
+    left: 25%;
+  }
+  .circle2 {
+    top: 20%;
+    left: 43%;
+  }
+  .circle3 {
+    top: 42%;
+    left: 48%;
+  }
+  .circle4 {
+    top: 64%;
+    left: 46%;
+  }
+  .circle5 {
+    top: 84%;
+    left: 29%;
+  }
+  .center_circle22 {
+    height: 70px;
+    width: 70px;
+    left: 22%;
+    font-size: 8px;
+    line-height:-10;
+    border: 2px solid rgb(12, 173, 226);
+    padding-top: -5%;
+  }
+  .course-img {
+    height: auto;
+    width: 70px;
+    display: block;
+    flex-shrink: 0;
+    margin-right: 20px;
+  }
+  .square{
+    height: 30px;
+    width: 100px;
+  }
+  .square1{
+    margin-top: -17.5%;
+    margin-left: 32%;
+    font-size: 8px;
+    padding-top: 5px;
+    z-index: 0;
+    border: 2px solid rgb(12, 173, 226);
+  }
+  .square2{
+    margin-top: 12%;
+    margin-left: 32%; 
+    font-size: 8px;
+    padding-left: 35px;
+    width: 101px;
+    padding-top: 5px;
+    z-index: 0;
+    border: 2px solid goldenrod;
+  }
+  .square3{
+    margin-top: 45%;
+    margin-left: 32%; 
+    font-size: 7px;
+    padding-left: 47px;
+    width: 102px; 
+    padding-top: 2px;
+    z-index: 0;
+    border: 2px solid palevioletred;
+  }
+  .square4{
+    margin-top: 78.3%;
+    margin-left: 33.2%; 
+     font-size: 7px;
+     padding-left: 39px;
+     padding-top: 5px;
+     z-index: 0;
+     border: 2px solid burlywood;
+  }
+  .square5{
+    margin-top: 109%;
+    margin-left: 33%; 
+    font-size: 8px;
+    padding-top: 5px;
+    padding-left: -2px;
+    z-index: 0;
+    border: 2px solid palevioletred;
+  }
+  .main2{
+    position: relative;
+    top: -20px;
+    padding-top:-60px;
+  }
+  .sunshine{
+    padding-top: 3px;
+    font-size: 8px;
+  }
+}
+
+@media only screen 
+  and (device-width: 390px) 
+  and (device-height: 844px) 
+  and (-webkit-device-pixel-ratio: 3) { 
+    .square4{
+      margin-top: 76%;
+      margin-left: 38%; 
+       font-size: 8px;
+       padding-left: 32px;
+       padding-top: 5px;
+    }
+    .square5{
+      margin-top: 105%;
+      margin-left: 35%; 
+      font-size: 8px;
+      padding-top: 5px;
+      padding-left: -1px;
+      padding-right: 3px;
+    }
+    .square3{
+      margin-top: 43%;
+      margin-left: 37%; 
+      font-size: 8px;
+      padding-left: 40px;
+      width: 102px; 
+      padding-top: 2px;
+    }
+    .square1{
+      margin-top: -14.8%;
+      margin-left: 33%;
+      font-size: 8px;
+      padding-top: 5px;
+    }
+    .square1{
+      top: 12%;
+    }
+    .square2{
+      top: 14%;
+      margin-left: 38%;
+    }
+    .sunshine{
+      padding-top: 3px;
+      font-size: 9px;
+    }
+}
+
